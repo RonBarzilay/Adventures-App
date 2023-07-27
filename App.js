@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import { init } from "./util/database";
 import PlaceDetails from "./screens/PlaceDetails";
 
+// Naviagation
 const Stack = createNativeStackNavigator();
 
 export default function App() {
